@@ -27,7 +27,7 @@ Design, assess, and secure a simulated multi-service environment to identify vul
 
 - ### Nmap Scan Results (Before Hardening)
 
-![Nmap Scan Before](namp.jpeg)
+![Nmap Scan](namp.jpeg)
 
 ## Phase 2: Hardening Implementation
 - Firewall rules configured
@@ -37,7 +37,7 @@ Design, assess, and secure a simulated multi-service environment to identify vul
 - Implemented Fail2Ban
 - Log monitoring enabled
 
-![Firewall](images/Firewall-open-ports.jpeg)
+![Firewall](firewallopenports.jpeg)
 
 ## Validation
 Post-hardening scan demonstrated reduced attack surface and improved security posture.
