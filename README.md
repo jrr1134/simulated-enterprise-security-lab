@@ -37,7 +37,7 @@ Design, assess, and secure a simulated multi-service environment to identify vul
 - Implemented Fail2Ban
 - Log monitoring enabled
 
-![Nmap Scan Before](Firewall open ports.jpeg)
+![Firewall](images/firewall-open-ports.jpeg)
 
 ## Validation
 Post-hardening scan demonstrated reduced attack surface and improved security posture.
@@ -50,4 +50,8 @@ Post-hardening scan demonstrated reduced attack surface and improved security po
 - Log analysis
 
 ## Lessons Learned
-Understanding attack surface reduction and layered defense strategy in a simulated enterprise environment.
+During the offensive phase, the environment was assessed to identify exploitable weaknesses. Using Nmap, open ports and exposed services were discovered. Weak authentication mechanisms were tested with Hydra, targeting services such as SSH, FTP, Telnet, IMAP, and POP3.
+
+Unencrypted protocols like FTP were analyzed with Wireshark, allowing credential interception in clear text. The environment lacked defensive configurations: unnecessary services were enabled, default settings remained active, password policies were weak, and no firewall or Fail2Ban protections were implemented.
+
+In the defensive phase, the system was hardened by reducing exposed services and enabling a firewall with strict port control. Weak password policies were replaced with stronger authentication requirements.
