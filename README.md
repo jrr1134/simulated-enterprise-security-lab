@@ -37,7 +37,7 @@ Design, assess, and secure a simulated multi-service environment to identify vul
 - Implemented Fail2Ban
 - Log monitoring enabled
 
-(Firewall open ports.jpeg)
+![Nmap Scan Before](Firewall open ports.jpeg)
 
 ## Validation
 Post-hardening scan demonstrated reduced attack surface and improved security posture.
