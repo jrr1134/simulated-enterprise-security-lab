@@ -55,3 +55,9 @@ During the offensive phase, the environment was assessed to identify exploitable
 Unencrypted protocols like FTP were analyzed with Wireshark, allowing credential interception in clear text. The environment lacked defensive configurations: unnecessary services were enabled, default settings remained active, password policies were weak, and no firewall or Fail2Ban protections were implemented.
 
 In the defensive phase, the system was hardened by reducing exposed services and enabling a firewall with strict port control. Weak password policies were replaced with stronger authentication requirements.
+
+## Full Technical Report
+
+The complete technical report is available below:
+
+[Download Full Report](docs/Simulated-Environment-Security-Assessment.pdf)
