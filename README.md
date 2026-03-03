@@ -25,6 +25,10 @@ Design, assess, and secure a simulated multi-service environment to identify vul
 - Weak authentication testing
 - Basic vulnerability scanning
 
+- ### Nmap Scan Results (Before Hardening)
+
+![Nmap Scan Before](Cyber.png)
+
 ## Phase 2: Hardening Implementation
 - Firewall rules configured
 - Disabled unnecessary services
